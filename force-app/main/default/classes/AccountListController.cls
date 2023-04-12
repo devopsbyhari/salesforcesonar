@@ -5,5 +5,6 @@ public class AccountListController {
         return [ SELECT Id, Name, Industry, Type FROM Account LIMIT 10 ];
     }
     //Hi Manu 
+    //deleted 
     
 }
