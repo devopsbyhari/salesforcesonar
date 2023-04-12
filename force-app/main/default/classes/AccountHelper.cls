@@ -4,5 +4,6 @@ public with sharing class AccountHelper {
         return [SELECT Id, Name, Type, Rating,
                 Phone, Website, AnnualRevenue
             FROM Account];
+        //comments
     }
 }
