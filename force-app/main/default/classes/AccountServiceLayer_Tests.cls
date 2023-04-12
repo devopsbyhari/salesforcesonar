@@ -11,7 +11,7 @@ private inherited sharing class AccountServiceLayer_Tests {
             AccountServiceLayer.didExecuteMethod,
             'Expected the log to match the input parameter.'
         );
-    }
+    } //end of the class
 
     @isTest
     static void testChangeShippingStreetNegativeNoEditAccess() {
