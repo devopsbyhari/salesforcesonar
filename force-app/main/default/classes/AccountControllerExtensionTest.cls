@@ -8,7 +8,7 @@ public class AccountControllerExtensionTest {
        PageReference testPage = Page.AccountNew; 
        Test.setCurrentPage(testPage);
        testPage.getParameters().put('Id', String.valueOf(ac.Id));
-        
+        //Apex class configuration
        ApexPages.StandardController sc = new  ApexPages.StandardController(ac);     
        AccountControllerExtension ext = new AccountControllerExtension(sc);         
          
