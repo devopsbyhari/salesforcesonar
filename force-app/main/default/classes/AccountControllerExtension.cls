@@ -9,5 +9,6 @@ public class AccountControllerExtension {
         From Opportunity
         Where AccountId =:acct.Id
         and (IsWon = true or IsClosed = false)];
-     }
+     } 
+    //controller extension constructor end
 }
