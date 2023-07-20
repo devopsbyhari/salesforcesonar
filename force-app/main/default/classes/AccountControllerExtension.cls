@@ -11,4 +11,5 @@ public class AccountControllerExtension {
         and (IsWon = true or IsClosed = false)];
      } 
     //controller extension constructor end
+    //controller end2
 }
