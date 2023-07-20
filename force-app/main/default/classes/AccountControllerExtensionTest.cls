@@ -15,5 +15,6 @@ public class AccountControllerExtensionTest {
        System.debug(ext.getChildOpps()); 
        List<Account> al = [Select Name from Account where Name LIKE '%Test%' LIMIT 1];
        System.assertEquals(1, al.size());
+      // at the end of test
    } 
   }
